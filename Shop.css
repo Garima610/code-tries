@@ -1,11 +1,15 @@
 div{
-  border: 2px solid burlywood;
-  display: flex;
-  margin-left: 350px;
-  gap: 200px;
-  background-color: burlywood;
-  margin-right: 310px;
+  /* border: 2px solid rgb(223, 197, 163); */
+  /* display: flex; */
+  /* margin-left: 350px; */
+  gap: 900px;
+  background-color:rgb(231, 211, 179);
+  /* margin-right: 310px; */
 
+}
+.boox{
+  display: flex;
+  
 }
 p{
   margin-top: 25px;
@@ -16,7 +20,7 @@ h2{
 }
 .image{
   position: relative;
-  width: 600px;
+  width: 1260px;
 }
 .image img{
   width:100%;
@@ -45,4 +49,29 @@ button{
 }
 button:hover{
   background-color: burlywood;
+}
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-left: 40px 0;
+  font-size: 24px;
+  font-weight: bold;
+  
+}
+.menu::before{
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: black;
+  margin: 0 15px;
+}
+.menu::after{
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: black; 
+  margin: 0 15px;
+  
 }
