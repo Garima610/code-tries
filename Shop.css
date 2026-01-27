@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 div{
   /* border: 2px solid rgb(223, 197, 163); */
   /* display: flex; */
@@ -11,16 +17,20 @@ div{
   
 }
 #coffee{
-  margin-top: 25px;
+  margin-top: 20px;
   font-style: italic;
+  margin-bottom: 15px;
+  
 }
 #cafe{
   font-style: italic;
   margin-left: 40px;
+  margin-top: 5px;
+  font-size: xx-large;
 }
 .image{
   position: relative;
-  width: 1260px;
+  width: 1265px;
 }
 .image img{
   width:100%;
@@ -50,7 +60,7 @@ div{
   border-radius: 8px;
   font-size: x-small;
 }
-button:hover{
+#order:hover{
   background-color: burlywood;
 }
 .menu{
@@ -59,6 +69,8 @@ button:hover{
   justify-content: center;
   /* width: 100%; */
   /* margin-left: 40px 0; */
+  margin-top: 15px;
+  margin-bottom: 15px;
   }
 .menu::before{
   content: "";
@@ -115,6 +127,8 @@ button:hover{
   display: flex;
   align-items: center;
   justify-content: center;
+   margin-top: 20px;
+  margin-bottom: 15px;
 }
 #contact::before{
   content: "";
@@ -150,4 +164,8 @@ input{
   border: 1px solid rgb(228, 195, 141);
   padding-bottom: 50px;
   background-color:  rgb(228, 195, 141);
+}
+#button:hover{
+  background-color: burlywood;
+
 }
