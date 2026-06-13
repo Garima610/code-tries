@@ -34,6 +34,7 @@ const employees= [
   {name: "Sarah", status:"Active", salary: 80000}
 ];
 
+//get info of active 
 let activeEmp= employees.filter(employee => employee.status === "Active");
 console.log(activeEmp);
 
@@ -42,3 +43,4 @@ console.log(names);
 
 let totalSalary= activeEmp.reduce((sum, current)=>sum + current.salary,0);
 console.log(totalSalary);
+
