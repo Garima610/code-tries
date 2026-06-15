@@ -34,7 +34,7 @@ const employees= [
   {name: "Sarah", status:"Active", salary: 80000}
 ];
 
-//get info of active 
+//get info of active emp
 let activeEmp= employees.filter(employee => employee.status === "Active");
 console.log(activeEmp);
 
@@ -43,4 +43,24 @@ console.log(names);
 
 let totalSalary= activeEmp.reduce((sum, current)=>sum + current.salary,0);
 console.log(totalSalary);
+
+let sentence= "JavaScript is awesome";
+
+let wordsArray= sentence.split(" ");
+// let wordsArray= sentence.split("");
+// let wordsArray= sentence.split("s");
+// console.log(wordsArray);
+
+let reversedArray= wordsArray.reverse();
+console.log(reversedArray);
+
+let finalSentence= reversedArray.join(" ");
+console.log(finalSentence)
+
+
+let line= "learning javaScript is fun";
+
+let reversedLine= line.split(" ").reverse().join(" ");
+console.log(reversedLine)
+
 
